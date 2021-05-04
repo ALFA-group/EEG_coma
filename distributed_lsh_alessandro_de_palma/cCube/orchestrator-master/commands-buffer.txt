@@ -1,0 +1,21 @@
+--------------------------
+SETUP COMMANDS
+
+python __main__.py node create --number 4 --provider openstack --configuration openstack-adepalma.yml
+
+python __main__.py cluster init ccube-84q3e7nz-0 --provider openstack --configuration openstack-adepalma.yml -D
+python __main__.py cluster token ccube-84q3e7nz-0 --role manager --provider openstack --configuration openstack-adepalma.yml -D
+python __main__.py cluster join ccube-yc7f53k5-1 --token SWMTKN-1-3qox2ok8n449atyb34jiq75dip6tzac0dy0mrf9maxvjtilwbd-c6mb49bs17djiqzzdmlwnia8e --manager ccube-yc7f53k5-0 --provider openstack --configuration openstack-adepalma.yml -D
+python __main__.py service create gpfunction --image adepalma/ccube:gpfunction --replicas 4 --manager ccube-yc7f53k5-0 --command learn --provider openstack --configuration openstack-adepalma.yml --debug -D
+
+------------------------------
+TEARDOWN COMMAND
+
+python __main__.py node destroy ccube-84q3e7nz- --provider openstack --configuration openstack-adepalma.yml -D
+
+
+------------------------------
+NOTES
+
+- The Image ID refers to the available CSAIL Ubuntu 16.04LTS Image on evo's OpenStack.
+- The key name is alessandro. That's correct.

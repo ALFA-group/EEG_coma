@@ -1,0 +1,54 @@
+./orchestrator-master/orchestrator/openstack-adepalma.yml
+# Ignore Latex auxiliaries.
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.xml
+*blx.bib
+thesis/_minted-thesis/
+*.bbl
+*.blg
+
+# Ignore Python artifacts.
+*/__pycache__/
+*.pyc
+*.egg-info
+
+# Ignore execution files.
+*/build/*
+*/dist/*
+
+# Ignore PyCharm artifact.
+*.idea
+
+# Ignore uncompressed experimental results.
+python-implementation/results/intranode/*.txt
+python-implementation/results/distributed/*.txt
+python-implementation/results/strong-scaling-analysis/*.txt
+python-implementation/results/dataparallel/*.txt
+papers/ML4H/results/*.txt
+
+# Ignore temporary folder.
+/temp/
+
+# Ignore MIMIC RECORDS file.
+python-implementation/scripts/RECORDS-waveforms
+
+# Ignore pickles.
+*.pickle
+
+# Ignore .edf files.
+*.edf
+
+# Ignore matlab temp files.
+*.m~
+
+# Ignore large data files.
+python-implementation/distributed_SLSH/datasets/partial-361k-ABP-AHE-dataset_lead0s_lag1800s_nwindows30.data
+
+# Ignore eeg preprocessing plots.
+EEG/plots/*.zip

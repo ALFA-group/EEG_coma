@@ -1,0 +1,12 @@
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_100_1_0_20150604T080023.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_100_1_1_20150604T185125.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_100_2_0_20150603T151926.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_100_2_1_20150604T021028.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_102_1_0_20120622T115824.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_102_1_0_20120622T151333.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130320T001321.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130321T090433.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130322T090630.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130323T212515.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130331T093807.edf
+~/NFS/EEG-dataset/outboxYALE/Batch1/ynh_105_1_0_20130401T083224.edf

@@ -1,0 +1,4 @@
+old_to_new_id.csv - maps all the old csail ids to the new ids used in the master lookup table and the outcomes table. Also good as just list of all the old csail ids.  
+old_to_new_edf_mapping.xlsx - Makes a table for each patient. For each old patient name, gets all old patient names corresponding to its new patient, and gets all old edfs for those old patient names, and their corresponding new edf, if there is a match. Also lists the edfs in master and icare. separated into sheets by whether or not patient is excluded and whether or not patient has all edfs mapped. 
+old_to_new_edf_mapping.csv - Same as above, except with all sheets combined into one.
+merge_info.csv - Made by going through all the new, unexcluded, patients, for each one getting all associated old csail edfs (from old_to_new_edf_mapping.csv, which lists all old csail edfs), and listing them sorted by timestamp. 

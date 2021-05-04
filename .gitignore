@@ -1,0 +1,7 @@
+src/python/run_matlab_scripts/run_output
+src/python/run_matlab_scripts/*.log
+src/python/.ipynb_checkpoints
+src/python/ml/.ipynb_checkpoints
+src/python/ml/logs
+.ipynb_checkpoints/
+*.pyc
